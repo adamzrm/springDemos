@@ -12,6 +12,5 @@ public class Main {
         controller.control();
         Usre user = ctx.getBean("user", Usre.class);
         System.out.println(ToStringBuilder.reflectionToString(user, ToStringBuilder.getDefaultStyle()));
-
     }
 }
